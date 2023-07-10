@@ -1,8 +1,6 @@
+import Footer from "@components/Footer";
 import Header from "@components/Header";
 import "@styles/globals.css";
-// import { Lexend } from "next/font/google";
-
-// const lexend = Lexend({ subsets: ["vietnamese"] });
 
 export const metadata = {
   title: "Collinschudy",
@@ -19,6 +17,7 @@ export default function RootLayout({ children }) {
         <main className="app">
           <Header />
           {children}
+          <Footer />
           </main>
       </body>
     </html>

@@ -32,6 +32,11 @@
     }
 
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .main {
     width: 100vw;
@@ -71,5 +76,5 @@
 
 /* Tailwind Stylings */
 .app {
-    @apply relative z-10 flex justify-center items-center flex-col;
+    @apply relative z-10 flex flex-col;
 }
