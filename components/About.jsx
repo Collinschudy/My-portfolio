@@ -23,7 +23,7 @@ const About = () => {
                 Hi, I am Collins, a frontend developer
               </h1>
               <p
-                className={`text-gray-700 w-full overflow-hidden mb-[1rem] text-justify leading-[2rem] ease-in-out duration-[1s] ${
+                className={`text-[14px] sm:text-[16px] text-gray-700 w-full overflow-hidden mb-[1rem] text-justify leading-[2rem] ease-in-out duration-[1s] ${
                   showInfo
                     ? "h-[52rem] xl:h-[29rem] lg:h-[36rem] md:h-[30rem]"
                     : "h-[13.5rem] xl:h-[8rem] md:h-[8rem] lg:h-[9.5rem]"
