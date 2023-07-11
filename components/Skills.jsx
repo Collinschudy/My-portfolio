@@ -18,7 +18,7 @@ const Skills = () => {
               key={id}
               className="flex max-w-max bg-gray-200 items-center justify-between sm:gap-[4rem] gap-[2rem] rounded-xl py-[0.5rem] px-[1.1rem] my-[1rem]"
             >
-              <h2 className="flex items-center max-w-max justify-between gap-[0.5rem] text-gray-700 sm:text-[32px] text-[24px]">
+              <h2 className="flex items-center max-w-max justify-between gap-[0.5rem] text-gray-700 sm:text-[32px] text-[20px]">
                 <Image height={25} width={25} src={imageUrl} alt="icons" />
                 {name}
               </h2>

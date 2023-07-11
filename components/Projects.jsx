@@ -27,8 +27,8 @@ const Projects = () => {
                     className="rounded-[8px]"
                   />
                 </div>
-                <h3 className="py-[1rem] text-gray-800">{title}</h3>
-                <p className="pb-[2rem] text-gray-700">{text}</p>
+                <h3 className="py-[1rem] text-gray-800 text-[22px] sm:text-[32px]">{title}</h3>
+                <p className="pb-[2rem] text-gray-700 text-[14px] sm:text-[16px]">{text}</p>
                 <div className="flex items-center justify-between">
                   <p className="flex items-center justify-between w-full max-w-[7.5rem] text-orange-800 cursor-pointer" onClick={() => window.open(live)}>
                     Live Preview <BsArrowRight />

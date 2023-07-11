@@ -24,11 +24,11 @@ const Contact = () => {
           </div>
           <div>
             <p>Whatsapp:</p>
-            <h2 className="text-[24px] sm:text-[40px] lg:text-[30px] md:text-[25px]">
+            <h2 className="text-[20px] sm:text-[40px] lg:text-[30px] md:text-[25px]">
               (+234) 80715 99378
             </h2>
             <p>For a Phone call:</p>
-            <h2 className="text-[24px] sm:text-[40px] lg:text-[30px] md:text-[25px]">
+            <h2 className="text-[20px] sm:text-[40px] lg:text-[30px] md:text-[25px]">
               (+234) 90635 56779
             </h2>
             <p>socials:</p>
