@@ -8,11 +8,11 @@ const About = () => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
-    <div className="">
+    <div className="" id='about'>
       <div className="flex flex-col items-center justify-center">
-        <h2 className="sm:text-[40px] text-orange-800">About Me</h2>
+        <h2 className="sm:text-[40px] text-orange-800 text-[26px]">About Me</h2>
         <p className="text-gray-800">A Brief Information on Myself</p>
-        <span className="bg-gray-100 w-[6em] h-[6px] rounded-l-lg rounded-r-lg mt-[1em]"></span>
+        <span className="bg-gray-200 w-[6em] h-[6px] rounded-l-lg rounded-r-lg mt-[1em]"></span>
         <div
           id="a"
           className="mt-[1.5rem] bg-orange-100 w-full px-[2rem] sm:px-[4rem] mb-[4rem] sm:mb-[5rem] flex justify-center items-center"
@@ -57,10 +57,10 @@ const About = () => {
                 <button
                 className="bg-orange-900 text-slate-100 px-[12px] py-[8px] rounded-sm"
                   onClick={() =>
-                    window.open(`${"/assets/resume.pdf"}`, "_blank")
+                    window.open(`${"/assets/collins_chudy_resume.pdf"}`, "_blank")
                   }
                 >
-                  download resume
+                  view resume
                 </button>
               </div>
             </div>

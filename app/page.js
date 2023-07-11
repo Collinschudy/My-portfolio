@@ -5,7 +5,7 @@ import Introduction from '@components/Introduction';
 import Skills from '@components/Skills';
 import Projects from '@components/Projects';
 import Contact from '@components/Contact';
-import Footer from '@components/Footer';
+import ProgressCircle from '@components/ProjectCircle';
 
 const Home = () => {
   return (
