@@ -20,7 +20,7 @@ export const projects = [
     {
         id: 3,
         title: 'Alliance Arcade',
-        imageUrl: '/assets/images/alliancearcade1.PNG',
+        imageUrl: '/assets/images/alliancearcade2.PNG',
         text: 'This project is peer to peer earning platform built with react and MUI. Illustrated APIs (built with php) fetching using axios',
         live: 'https://mlm-matrix-chudy.vercel.app/.vercel.app',
         github: 'https://github.com/Collinschudy'
