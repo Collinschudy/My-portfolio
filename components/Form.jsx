@@ -73,6 +73,7 @@ const FormHolder = () => {
           >
             <input
               type="submit"
+              disabled={sending}
               value={sending ? "Sending..." : "Send Message"}
             />
           </div>
