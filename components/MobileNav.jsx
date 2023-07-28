@@ -28,7 +28,7 @@ const MobileNav = () => {
         <Link href="#projects" onClick={() => setToggle(false)}>Projects</Link>
         <Link href="#skills" onClick={() => setToggle(false)}>Skills</Link>
         <Link href="#contacts" onClick={() => setToggle(false)}>Contact</Link>
-        <button className="bg-orange-900 px-5 py-2 rounded w-[8rem]" onClick={() => {download('/assets/collins_chudy_resume.pdf');setToggle(false)}}>
+        <button className="bg-orange-900 px-5 py-2 rounded w-[8rem]" onClick={() => {download('assets/Ekwebenem_Collins_resume.pdf');setToggle(false)}}>
           <Link className="text-gray-100 flex items-center justify-around" href="">
             <BsDownload />
             Resume

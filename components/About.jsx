@@ -57,7 +57,7 @@ const About = () => {
                 <button
                 className="bg-orange-900 text-slate-100 px-[12px] py-[8px] rounded-sm"
                   onClick={() =>
-                    window.open(`${"/assets/collins_chudy_resume.pdf"}`, "_blank")
+                    window.open(`${"/assets/Ekwebenem_Collins_resume.pdf"}`, "_blank")
                   }
                 >
                   view resume

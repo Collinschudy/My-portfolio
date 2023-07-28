@@ -36,7 +36,7 @@ const Header = () => {
           <Link href="#contacts">Contact</Link>
           <button
             className="bg-orange-900 px-5 py-2 rounded w-[8rem]"
-            onClick={() => download("/assets/collins_chudy_resume.pdf")}
+            onClick={() => download("/assets/Ekwebenem_Collins_resume.pdf")}
           >
             <Link
               className="text-slate-100 flex items-center justify-around"
