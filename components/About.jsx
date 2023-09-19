@@ -48,7 +48,7 @@ const About = () => {
                 the latest front-end development trends and best practices.
                 <br /> If you're looking for a dedicated and experienced
                 frontend developer to help bring your ideas to life, I'd love to
-                be that developer. You can reach out to me
+                be that developer. You can reach out to me.
               </p>
               <div className="w-full flex items-center justify-center sm:justify-start gap-[1rem] mb-[2rem]">
                 <button onClick={() => setShowInfo((prev) => !prev)} className="bg-orange-900 text-slate-100 px-[12px] py-[8px] rounded-sm">
